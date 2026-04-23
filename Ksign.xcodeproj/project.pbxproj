@@ -246,6 +246,7 @@
 				C40422132E119AF900D1F324 /* XCLocalSwiftPackageReference "Zsign" */,
 				C45128062E54E8E900E94CC7 /* XCRemoteSwiftPackageReference "ZIPFoundation" */,
 				C42CC1AB2F4370F20064A4A2 /* XCLocalSwiftPackageReference "IDeviceKit" */,
+				3A0348382F9A2E200055D987 /* XCRemoteSwiftPackageReference "SVProgressHUD" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 3379C1BA2DA869A1004372DA /* Products */;
@@ -714,6 +715,14 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 4.8.6;
+			};
+		};
+		3A0348382F9A2E200055D987 /* XCRemoteSwiftPackageReference "SVProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SVProgressHUD/SVProgressHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.1;
 			};
 		};
 		C45128062E54E8E900E94CC7 /* XCRemoteSwiftPackageReference "ZIPFoundation" */ = {
